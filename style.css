@@ -1,0 +1,107 @@
+a {
+    transition: 0.2s;
+    color: #422825;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.input-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.inputAndButton{
+    height: 50px;
+}
+
+.inputAndButton input{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    display: block;
+    background: transparent;
+    font-size: 16px;
+    color: black;
+    padding: 10px 0;
+}
+
+.inputAndButton input.placeholder {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+
+.inputAndButton input:-moz-placeholder {
+    color: #222;
+    font-size: 16px;
+}
+
+.inputAndButton input::-webkit-input-placeholder {
+    color: #222;
+    font-size: 16px;
+}
+
+.inputAndButton input:hover,
+.inputAndButton input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+.inputAndButton.text-field{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.inputAndButton.text-field input{
+    flex-grow: 1;
+}
+
+.inputAndButton.button-field {
+    min-width: 130px;
+}
+
+
+.inputAndButton.button-field .btn-search {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    background: #e74c3c;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    transition: all 0.2s ease-out, color 0.2s ease-out;
+}
+
+.inputAndButton.button-field .btn-search:hover {
+    background: black;
+}
+
+.inputAndButton.button-field .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+ul li{
+    padding: 5px 0px;
+}
+
+#warningText {
+    display: none;
+}
+
+footer {
+    padding: 50px 30px;
+    text-align: center;
+}
